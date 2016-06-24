@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+	<xs:element name="voitures">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="voiture" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="voiture">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="marque" type="xs:string" />
+				<xs:element name="modele" type="xs:string" />
+				<xs:element name="kilometre" type="xs:int" />
+				<xs:element name="dateMiseEnCirculation" type="xs:date" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

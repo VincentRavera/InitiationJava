@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<voitures>
+	<voiture>
+		<marque>Audi</marque>
+		<modele>A4</modele>
+		<kilometre>10000</kilometre>
+	</voiture>
+	<voiture>
+		<marque>Audi</marque>
+		<modele>A1</modele>
+		<kilometre>10000</kilometre>
+	</voiture>
+	<voiture>
+		<marque>Mercedes</marque>
+		<modele>ClassA</modele>
+		<kilometre>10000</kilometre>
+	</voiture>
+	<voiture>
+		<marque>Mercedes</marque>
+		<modele>ClassB</modele>
+		<kilometre>10000</kilometre>
+	</voiture>
+	<voiture>
+		<marque>Mercedes</marque>
+		<modele>ClassC</modele>
+		<kilometre>10000</kilometre>
+	</voiture>
+</voitures>
